@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Document</title>
-  <link rel="stylesheet" href="styles.css">
+  <!-- <link rel="stylesheet" href="styles.css"> -->
 </head>
 <style>
   @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
@@ -130,25 +130,28 @@ body {
       <h1 class="title">Log In </h1>
 
       <div class="inputContainer">
-        <input type="text" class="input" placeholder="a">
+        <input type="text" class="input" placeholder="a" id="email">
         <label for="" class="label">Email</label>
       </div>
 
       <div class="inputContainer">
-        <input type="text" class="input" placeholder="a">
+        <input type="text" class="input" placeholder="a" id="username">
         <label for="" class="label">Username</label>
       </div>
 
       <div class="inputContainer">
-        <input type="text" class="input" placeholder="a">
+        <input type="password" class="input" placeholder="a" id="password">
         <label for="" class="label">Password</label>
       </div>
 
       
-
-      <input type="submit" class="submitBtn" value="Log In">
+      
+      <button class="submitBtn" id="signup">Sign Up</button>
+      <button class="submitBtn" id="log">Sign in</button>
+      <!-- <input type="submit" class="submitBtn" value="Sign up" id="signup"> -->
     </form>
   </div>
+  <script type="module" src="./firebase.js"></script>
 <script>
 /* When the user clicks on the button, 
 toggle between hiding and showing the dropdown content */
