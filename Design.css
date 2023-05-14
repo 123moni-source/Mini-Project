@@ -119,7 +119,7 @@ main{
 
 .box:hover{
     transform: scale(1.05);
-    box-shadow: 0 0 15px black;
+    box-shadow: 0 0 15px rgb(113, 119, 97);
 }
 /* #p{
 font-size: xx-large;
